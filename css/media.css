@@ -1,0 +1,155 @@
+@media (max-width: 1300px) {
+
+    .auction-text__row {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .hero {
+        background-image: url(..//img/section-1/stickers-hero__leptop.png);
+    }
+
+    .auction-text__row {
+        flex-direction: column;
+    }
+
+    .form-img__pc {
+        display: none;
+    }
+
+    .form-img__leptop {
+        display: block;
+    }
+
+    .footer {
+        display: none;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .container {
+        padding: 0 36px;
+    }
+}
+
+@media (max-width:992px) {
+    h3 {
+        font-size: 20px;
+    }
+
+    .container-form {
+        flex-direction: column;
+        padding-top: 15px;
+    }
+
+    .form-img__mobile {
+        display: block;
+    }
+
+    .form-img__leptop {
+        display: none;
+    }
+
+    .lot-2 {
+        flex-direction: column;
+        flex: 1 auto;
+        height: 100%;
+    }
+
+    .lot-2__img {
+        width: 100%;
+        justify-content: center;
+        border-radius: 40px 40px 0 0;
+        padding: 12px 12px 0 12px;
+    }
+
+    .lot-2__img_pc {
+        display: none;
+    }
+
+
+    .lot-2__img_mobile {
+        display: block;
+    }
+
+    .lot-2__text {
+        padding: 16px;
+    }
+
+}
+
+@media (max-width: 740px) {
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 0 12px;
+    }
+
+    .nav-menu-mobile {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 28px;
+        padding: 10px 0;
+        border-top: 1px solid #C4C4C4;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .form-block {
+        font-size: 16px; 
+        width: auto;
+    }
+
+    .form-img__leptop, .form-img__pc {
+        display: none;
+    }
+
+    .form-img__mobile {
+        display: block;
+    }
+
+    .item-1 {
+        display: none;
+    }
+
+    .lot-2 {
+        flex-direction: column;
+        width: 32%;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .hero {
+        background-image: url(..//img/section-1/stickers-hero__mobile.png);
+        background-position: bottom;
+    }
+
+    .timer-img {
+        display: none;
+    }
+
+}
+
